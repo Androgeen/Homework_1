@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.description {
+    background: gold;
+    text-align: justify;
+}
+img{
+    border: 10px solid blue;
+    width: 400px;
+}
