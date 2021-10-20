@@ -1,0 +1,42 @@
+.wrap{
+    width: 100%;
+    column-gap: 50px;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background: blue;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.father_nav {
+    flex-direction: column;
+}
+
+.nav1{
+    background: blue;
+    height: 80px;
+}
+.nav2{
+    background: blue;
+    height: 80px;
+}
+.nav3{
+    background: blue;
+    height: 80px;
+}
+.footer{
+    width: 50%;
+    background: blue;
+    height: 150px;
+    margin-top: 10px;
+}

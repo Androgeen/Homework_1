@@ -1,0 +1,33 @@
+.father {
+    background: gray;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+
+}
+
+.box {
+     height: 100px;
+}
+.nav {
+    display: flex;
+}
+
+.a{
+    width: 100%;
+    background: #dc2e18;
+}
+.b {
+    background: cornflowerblue;
+    width: 70%;
+    height: 250px;
+}
+
+.c {
+    background: silver;
+    width: 30%;
+    height: 250px;
+}
+
