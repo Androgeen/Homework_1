@@ -1,12 +1,12 @@
 .wrap{
-    width: 100%;
+    display: flex;
+    width: 1000px;
     column-gap: 50px;
 }
 *   {
     margin: 0;
     padding: 0;
 }
-
 .d-flex {
     display: flex;
     justify-content: center;
@@ -19,18 +19,14 @@
     margin-bottom: 10px;
 }
 .father_nav {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav1, .nav2, .nav3 {
+    width: 33%;
     flex-direction: column;
-}
-
-.nav1{
-    background: blue;
-    height: 80px;
-}
-.nav2{
-    background: blue;
-    height: 80px;
-}
-.nav3{
     background: blue;
     height: 80px;
 }
