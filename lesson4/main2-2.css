@@ -1,7 +1,9 @@
 .wrap{
     display: flex;
     width: 1000px;
+    flex-direction: column;
     column-gap: 50px;
+    margin: 0 auto;
 }
 *   {
     margin: 0;
@@ -13,26 +15,24 @@
     align-items: center;
 }
 .header{
-    background: blue;
+    background: cornflowerblue;
     width: 50%;
-    height: 100px;
+    height: 200px;
     margin-bottom: 10px;
 }
 .father_nav {
     width: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .nav1, .nav2, .nav3 {
     width: 33%;
-    flex-direction: column;
-    background: blue;
-    height: 80px;
+    background: mediumblue;
+    height: 200px;
 }
 .footer{
     width: 50%;
-    background: blue;
-    height: 150px;
+    background: cornflowerblue;
+    height: 250px;
     margin-top: 10px;
 }
