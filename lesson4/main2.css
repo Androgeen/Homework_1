@@ -1,0 +1,53 @@
+.wrap {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.header {
+    width: 50%;
+    height: 50px;
+    background: cornflowerblue;
+}
+.parent {
+    background: gray;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav {
+    display: flex;
+    height: 70%;
+}
+
+.a {
+    width: 500px;
+    height: 30%;
+    background: #dc2e18;
+}
+.b {
+    background: cornflowerblue;
+    width: 80%;
+
+}
+
+.c {
+    background: silver;
+    width: 20%;
+}
+.footer {
+    width: 50%;
+    height: 50px;
+    background: red;
+}
+
