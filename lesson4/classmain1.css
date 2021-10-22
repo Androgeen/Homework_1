@@ -1,0 +1,43 @@
+.wrap {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 1000px;
+    height: 100px;
+    background: grey;
+    column-gap: 10px;
+}
+.parent {
+    background: #dc2e18;
+    width: 700px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+
+}
+.nav {
+    background: gold;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+.f {
+    background: blue;
+    width: 700px;
+    height: 50px;
+
+}
